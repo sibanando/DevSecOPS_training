@@ -11,7 +11,7 @@ jobs:
   runs-on:
    ubuntu-latest
   steps:
-   - name: Multi-line bash 
+   - name: Failed-steps 
      run: | 
       echo "I am" 
       echo "failed" 
