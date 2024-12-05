@@ -11,5 +11,9 @@ jobs:
   runs-on:
    ubuntu-latest
   steps:
+   - name: Multi-line bash 
+     run: | 
+      echo "I am" 
+      echo "failed" 
+      echo "Failed."
    - run: echo "Hello, Goodbye"
-   
